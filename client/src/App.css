@@ -1,0 +1,115 @@
+body {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e1e1e1;
+}
+
+.dark-mode .form-control {
+  background-color: #333;
+  border-color: #444;
+  color: #e1e1e1;
+}
+
+.dark-mode .form-control:focus {
+  background-color: #3a3a3a;
+  border-color: #555;
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.dark-mode .form-label {
+  color: #e1e1e1;
+}
+
+.dark-mode .btn-outline-secondary {
+  color: #adb5bd;
+  border-color: #495057;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+  background-color: #495057;
+  color: #e1e1e1;
+}
+
+.dark-mode .alert-danger {
+  background-color: #350d0d;
+  color: #ea868f;
+  border-color: #842029;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark-mode .card {
+  background-color: #2d2d2d;
+  color: #e1e1e1;
+  border-color: #444;
+}
+
+.dark-mode .card-header {
+  background-color: #383838;
+  border-color: #444;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image-preview-container {
+  width: 100%;
+  text-align: center;
+}
+
+.image-preview-container img {
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.upload-placeholder {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-card {
+  margin-top: 20px;
+}
+
+.result-card .thumbnail {
+  max-height: 200px;
+  object-fit: contain;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.analysis-text {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+  border-left: 4px solid #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .analysis-text {
+  background-color: #383838;
+  color: #e1e1e1;
+}
+
+.analysis-text p {
+  margin-bottom: 10px;
+}
+
+.analysis-text p:last-child {
+  margin-bottom: 0;
+}
